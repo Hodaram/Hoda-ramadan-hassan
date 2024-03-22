@@ -1,0 +1,75 @@
+
+body{
+    background-repeat: no-repeat;
+    background-image: url(img.jpg);
+     background-size :cover; 
+    background-size: 100% 100%;
+     padding: 100px 0;
+     text-align: center;
+   
+   
+}
+
+nav ul {
+  
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  
+}
+nav ul li :hover {
+border-bottom: 2px solid #e4b95ee4;
+}
+.book-table-button:hover {
+    background-color: #ebc52d; 
+}
+.book-table-button {
+    background-color: rgba(255, 255, 255, 0.7);; /* Yellow background color */
+    color: #000; /* Black text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px; /* Set width to make it a square */
+    height: 80px; /* Set height to make it a square */
+    text-align: center;
+    line-height: 80px; /* Vertically center text */
+}
+
+.features{
+background-color: #f0ecec;
+padding: 100px 0;
+}
+table img{
+    width: 150px;
+    height: 120px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+}
+header{
+    background-color:#fff;
+    background-size: cover;
+    background-size: 100%;
+}
+p{
+    color: hsl(197, 72%, 65%);
+}
+h1{
+    color: #010101;
+}
+background-imge:hover{
+    opacity: 0.5;
+}
